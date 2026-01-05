@@ -23,5 +23,6 @@
     -Dizin İçin:"r" read(listele), "w" write(ekle/sil) , "x" execute(içine gir)
 -Owner , Group , Others
  -rwxr-xr--
- "-"(dosya) , rwx(owner) , r-x(group) , r--(others) 
-     
+ "-"(dosya) , rwx(owner) , r-x(group) , r--(others)
+<!-- Gün 2 notları gözden geçirildi -->
+
