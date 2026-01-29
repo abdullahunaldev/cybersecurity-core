@@ -7,7 +7,7 @@
 - Linux'ta process'in **kulak-ağız-gözleri = File Decriptor(FD)**
 - ## File Descriptor nedir?
 - FD = process'in"bağlantı deliği" ; ben burada okurum buradan yazarım.
-- ## Her Procss Doğarken 3 Kapıyla Doğar
+- ## Her Process Doğarken 3 Kapıyla Doğar
 - Bunlar **her zaman var** kaçamazsın!!
   
 | Numara | Anlamı | Benzetme           |
@@ -16,7 +16,7 @@
 | **1**  | STDOUT | 🗣️ Ağız (konuşma) |
 | **2**  | STDERR | 😡 Bağırma (hata)  |
 
-- **Sen Teminalde Ne Yapıyorsun?**
+- **Sen Terminalde Ne Yapıyorsun?**
 - ls
 - Aslında olan şey bu:
   ls → 1 numaralı kapıdan konuşuyor
@@ -81,9 +81,9 @@ FD 4
   Ağız + kulak internete bağlanır
   Log silinir ama FD açık kalır
   Malware gizlice FD ile veri sızdırır
-  **Process, dünyayla sadece File Descriptor!lar üzerinden konuşur.**
+  **Process, dünyayla sadece File Descriptor'lar üzerinden konuşur.**
 ## Açık Dosya Ne Demek?
-- Linux'ta bir dosya, sadece açıkken bir process tarafından kulanılabilir.
+- Linux'ta bir dosya, sadece açıkken bir process tarafından kullanılabilir.
 - Yani:
   Dosya var olabilir ama proces o dosyayı açmadıysa onun için yok gibidir.
 **Dosya Açılınca Ne olur?**
@@ -99,7 +99,7 @@ FD 4
   Dosya silinse bile
   FD açıksa
   Process yazmaya devam eder
-**Basit Seneryo**
+**Basit Senaryo**
 - nano test.txt
   Ne oldu?
   nano dosyayı açtı
